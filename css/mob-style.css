@@ -464,3 +464,45 @@ footer h6 { color: #fff !important; }
   
   
 } 
+/*VideoList*/
+.work-box { 
+  width: 100%; 
+  clear: both; 
+  overflow: hidden; 
+  box-shadow: 0px 0px 5px 2px #ddd; 
+  padding: 2%; 
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: "Roboto";
+}
+.work-box-img {
+  float: left;
+  width: 40%;
+  position: relative;
+  box-shadow: 4px 4px 2px 1px #ddd;
+}
+.work-box-img img { width: 100%; margin-bottom: -4px; }
+.work-box-img .time-text {
+  position: absolute;
+  bottom: 5px;
+  right: 5%;
+}
+.work-box-img .time-text span {
+  background-color: rgba(0,0,0,.5);
+  padding: 5%;
+  color: #fff;
+  display: block;
+}
+.work-box-text {
+  float: left;
+  width: 55%;
+  margin-left: 5%;
+}
+.work-box-text h3 {
+  font-size: 14px;
+  margin-bottom: 5%;
+}
+.work-box-text p {
+  font-size: 13px;
+}
