@@ -316,13 +316,13 @@
         dataType: "text",
         data: ac,
         beforeSend: function() {
-          $("#msg").html('<strong>Sending message</strong>, please wait !');
+          $("#msg").html('<br/><strong>Sending message</strong>, please wait !');
         },
         success: function(data) {
           if (data == 1) {
-            $("#msg").html('<strong>Message send Successfull</strong>, and we will contact to you, ASAP.');
+            $("#msg").html('<br/><strong>Message send Successfull</strong>, and we will contact to you, ASAP.');
           } else {
-            $("#msg").html('<strong>Message send Failed</strong>, please check Email ID or Net Connection.');
+            $("#msg").html('<br/><strong>Message send Failed</strong>, please check Email ID or Net Connection.');
           }
         }
       });
