@@ -25,7 +25,7 @@ function sendMailToMe() {
 
 	//Recipients
     $mail->setFrom('no-reply@arenagurgaon.com', 'New Enquiry - ArenaGurgaon');
-    $mail->addAddress('gurgaon.arena@gmail.com', 'Contact us - ArenaGurgaon');     // Add a recipient
+    $mail->addAddress('info@arenagurgaon.com', 'Contact us - ArenaGurgaon');     // Add a recipient
     // $mail->addAddress('aayush.jaiswal984@gmail.com');               // Name is optional
     $mail->addReplyTo($_POST['email'], $_POST['fullnm']);
     // $mail->addCC('cc@example.com');
@@ -72,7 +72,7 @@ try {
     $mail->setFrom('no-reply@arenagurgaon.com', 'ArenaGurgaon');
     $mail->addAddress($_POST['email'], $_POST['fullnm']);     // Add a recipient
     // $mail->addAddress('aayush.jaiswal984@gmail.com');               // Name is optional
-    $mail->addReplyTo('gurgaon.arena@gmail.com', 'Replay');
+    $mail->addReplyTo('info@arenagurgaon.com', 'Replay');
     // $mail->addCC('cc@example.com');
     // $mail->addBCC('bcc@example.com');
 
