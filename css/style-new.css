@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body { background-color: #f6f6f6; }
+.mltr {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+header {
+	background-color: #e3330d;
+	color: #fff;
+	overflow: hidden;
+	padding: 2% 0 2% 0;
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+#logo {
+
+	float: left;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+#back {
+
+	float: right;
+}
+#back a {
+
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5em;
+}
+.course-box {
+	padding: 5%;
+	margin-bottom: 10%;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+	/*width: 360px;*/
+	background-color: #fff;
+	margin: 1%;
+	padding-bottom: 15%;
+}
+.course-box img { width: 100%; margin-bottom: -4px; }
+.course-box button, .btn-ggn {
+	box-shadow: 0 8px 6px -6px black;
+	padding: 2%;
+	width: 115px;
+	background-color: #e3330d;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+}
+.ss { position: relative; }
+.swiper-container { width: 100%; height: 100%; }
+.swiper-container-placement {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+.swiper-container-placement .swiper-slide { 
+	background-position: center;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+.txt-pad {
+	padding: 2%;
+	width: 100%;
+	border: 1px solid #ddd;
+	margin: 2% 0 2% 0;
+	height: 40px;
+}
